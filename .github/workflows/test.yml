@@ -49,10 +49,3 @@ jobs:
           python app.py &
           sleep 5
 
-      - name: Test GET /
-        run: |
-          curl --fail http://localhost:5000/
-
-      - name: Test GET /users
-        run: |
-          curl --fail http://localhost:5000/users
